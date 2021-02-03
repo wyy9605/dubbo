@@ -1,8 +1,8 @@
 package org.dubbo.user.service;
 
-import org.apache.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.annotation.DubboService;
 
-@Service
+@DubboService
 public class UserServiceImpl implements IUserService{
 
 	@Override
