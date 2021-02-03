@@ -1,8 +1,4 @@
-#dubbo
-dubbo:  application:    name: provider
-  registry:    address: zookeeper://39.96.85.93:2181?backup=39.96.85.93:2181,39.96.85.93:2182,39.96.85.93:2183
-    timeout: 6000
-    #check: false
-  protocol:    name: dubbo
-  scan:    base-packages:    - org.dubbo
-  consumer:    check: false
+nacos:
+  config:
+    server-addr: 39.96.85.93:8848
+    namespace: myDev

@@ -53,6 +53,14 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        
+     <!-- nacos -->
+     <dependency>
+    <groupId>com.alibaba.boot</groupId>
+    	<artifactId>nacos-config-spring-boot-starter</artifactId>
+    	<version>${nacos.starter.version}</version>
+	</dependency>
+        
         <dependency>
             <groupId>com.wyy</groupId>
             <artifactId>dubbo-api</artifactId>
